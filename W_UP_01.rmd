@@ -46,6 +46,9 @@ Pushups is a numerical variable; position is a categorical variable. Therefore w
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+  
+This graph shows that skill position players can do more pushups in 2 minutes than can line players
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
