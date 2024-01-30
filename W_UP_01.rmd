@@ -32,8 +32,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-Pushups is a numerical variable; position is a categorical variable. Therefore we use num-cat.
-
+Pushups is a numerical variable; position is a categorical variable. Therefore we use num~ca helper file.
+we want to determine whether number of pushups based on psosition (line, skill) is different
 # Results
 
 <!--Divide this section into two sub-sections: One for your descriptive results and one for your inferential results.!-->
@@ -52,6 +52,10 @@ This graph shows that skill position players can do more pushups in 2 minutes th
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+this table shows the average number of pushups done by players in line positions was 17, mean number of pushups done in 2 minutes by skill players was 50.
 
 ## Inferential Results
 
